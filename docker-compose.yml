@@ -1,6 +1,6 @@
 services:
 frontend:
-image: {liuguangyi}/234-deploylab-frontend:latest
+image: liuguangyi/234-deploylab-frontend:latest
 pull_policy: always
 ports:
 - "8081:80"
