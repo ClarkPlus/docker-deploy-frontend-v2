@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - old-ver
 jobs:
   docker:
     runs-on: ubuntu-latest
