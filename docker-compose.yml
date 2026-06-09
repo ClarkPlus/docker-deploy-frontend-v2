@@ -1,7 +1,8 @@
+version: '3.3'
 services:
-frontend:
-image: liuguangyi/234-deploylab-frontend:latest
-pull_policy: always
-ports:
-- "8081:80"
-restart: unless-stopped
+  frontend:
+    image: liuguangyi/234-deploylab-frontend:latest
+    pull_policy: always
+    ports:
+      - "8081:80"
+    restart: unless-stopped
